@@ -183,3 +183,52 @@
 
     
 }
+
+@media (max-height: 1920px) and (max-width: 1080px) {
+    #downBox {
+        top: 840px;
+    }
+    
+    .nav-cont {
+        font-size: 24px;
+    }
+}
+    
+@media (max-height: 768px) and (max-width: 414px) {
+    #downBox {
+        top: 710px;
+    }
+    
+    #skills {
+        padding: 50px 20px;
+    }
+    
+    .projects-content {
+        margin: 0 10px;
+    }
+    
+    .projects-article {
+        width: 340px;
+        height: 240px;
+    }
+}
+
+
+@media (max-height: 667px) and (max-width: 375px) {
+    #downBox {
+        top: 600px;
+    }
+    
+    #skills {
+        padding: 50px 20px;
+    }
+
+    .projects-content {
+        margin: 0 10px;
+    }
+    
+    .projects-article {
+        width: 340px;
+        height: 240px;
+    }    
+}
