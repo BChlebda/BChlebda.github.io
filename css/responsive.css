@@ -1,0 +1,185 @@
+@media screen and (min-width: 1280px) {
+    header, nav, .nav-cont, section, footer {
+        max-width: 1920px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) {
+    .projects-article {
+        
+    }
+    
+    #skills {
+        padding: 50px 100px;
+    }
+    
+    .text-article {
+        flex-basis: calc(50% - 45px);
+    }
+    
+    .projects-content {
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 35px;
+    }
+    
+    .projects-article {
+        margin: 20px auto;
+        flex-flow: column;
+    }
+    
+    .cv-content-left{
+        margin-left: 35px;
+    }
+    
+    .cv-content-right {
+        margin-right: 35px;
+    }
+    
+}
+
+
+@media screen and (max-width: 1023px) {  
+    .nav-title {
+        display: none;
+    }
+    
+    .nav-menu-button {
+        animation: none;
+        transform: translateX(0px);
+        margin-right: 10px;
+    }
+    
+    .nav-menu {
+        margin-right: 0px;        
+    }
+    
+    .nav-cont {
+        right: 0;
+        width: 150px;
+        height: 250px;
+        background: none;
+        text-align: right;    
+    }
+    
+    .black {
+        box-shadow: none;
+    }
+    
+    #menu .toggle {
+        display: inline-block;
+        padding: 0;
+        margin-right: 20px;
+        color: #756aee;
+        line-height: 20px;
+        text-align: right;
+        z-index: 3;
+        position: absolute;
+        right: 0px;
+        top: 20px;
+    }
+    
+    #menu ul {
+        display: none;
+    }
+    
+    #menu #drop:checked + ul {
+        display: block;
+        top: 40px;
+        right: 0px;
+        position: absolute;
+        z-index: 3;
+        background-color: rgba(255,255,255,.85);
+    }
+    
+    .nav-menu-button a {
+        color: #756aee;
+
+    }
+    
+    
+    
+/*    ------------------   other -----------------------*/
+    
+    .headTitles {
+        width: 60%;
+        top: 40vh;
+    }
+    
+    #skills {
+        padding: 50px 90px;
+    }
+    
+    .text-container {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+    }
+    
+        .text-article {
+        flex-basis: calc(50% - 45px);
+    }
+    
+    .cv-container {
+        justify-content: space-around;
+        flex-direction: column;
+        max-width: 920px;
+    }
+    
+    .cv-content {
+        margin: 0 auto;
+        width: 75%;
+        
+    }
+    
+    #aboutMe .container {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    
+    #aboutMe figure {
+        margin: 0 auto;
+    }
+    
+    #aboutMe .article {
+        margin-top: 35px;
+    }
+    
+    * .cv-content-left {
+        text-align: left;
+        align-items:  flex-start;
+    }
+    
+    .cv-article-left {
+    border-left: 2px solid #fff;
+    padding-left: 55px;
+    margin-left: 17px;
+    border-right: 0px;
+    padding-right: 0;
+    margin-right: 0;        
+    }
+    
+    .cv-h3-left::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #756aee;
+    border: 2px solid #565656;
+    position: absolute;
+    margin-left: -66px;
+    }
+    
+    .cv-h3-left::after {
+        visibility: hidden;
+    }
+    
+    #Start {
+        height: 100vh;
+    }
+    
+
+    
+}
