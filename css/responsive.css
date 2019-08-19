@@ -6,6 +6,15 @@
     }
 }
 
+@media (min-height: 768) and (max-width: 1366){
+    #downBox {
+        top: 500px;
+    }
+    .headTitles {
+        top: 320px;
+    }
+}
+
 @media (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) {
     .projects-article {
         
@@ -191,15 +200,6 @@
     
     .nav-cont {
         font-size: 24px;
-    }
-}
-
-@media (min-height: 768) and (max-width: 1366){
-    #downBox {
-        top: 500px;
-    }
-    .headTitles {
-        top: 320px;
     }
 }
     
