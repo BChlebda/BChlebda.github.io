@@ -193,6 +193,15 @@
         font-size: 24px;
     }
 }
+
+@media (max-width: 1366) and (max-height: 768){
+    #downBox {
+        top: 500px;
+    }
+    .headTitles {
+        top: 320px;
+    }
+}
     
 @media (max-height: 768px) and (max-width: 414px) {
     #downBox {
@@ -231,13 +240,4 @@
         width: 340px;
         height: 240px;
     }    
-}
-
-@media (max-width: 1366) and (max-height: 768){
-    #downBox {
-        top: 700px;
-    }
-    .headTitles {
-        top: 350px;
-    }
 }
