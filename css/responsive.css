@@ -232,3 +232,12 @@
         height: 240px;
     }    
 }
+
+@media (max-width: 1366) and (max-height: 768){
+    #downBox {
+        top: 700px;
+    }
+    .headTitles {
+        top: 350px;
+    }
+}
