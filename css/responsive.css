@@ -189,7 +189,7 @@
 }
 
  
-@media (max-height: 770) and (min-width: 1360px) {
+@media (max-height: 770px) and (min-width: 1360px) {
     #downBox {
         top: 500px;
     }
