@@ -194,7 +194,7 @@
     }
 }
 
-@media (max-width: 1366) and (max-height: 768){
+@media (min-height: 768) and (max-width: 1366){
     #downBox {
         top: 500px;
     }
