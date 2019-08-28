@@ -172,11 +172,15 @@
         height: 100vh;
     }
     
+    #downBox {
+        bottom: 6%;
+    }
+    
 }
 
 @media (max-height: 768px) and (min-width: 1360px) {
     #downBox {
-        top: 580px;
+        top: 570px;
     }
     .headTitles {
         top: 320px;
