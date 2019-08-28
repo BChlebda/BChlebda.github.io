@@ -184,6 +184,9 @@
 }
 
 @media screen and (min-width: 1370px) {
+    #downBox {
+        bottom: 6%;
+    }
     header, nav, .nav-cont, section, footer {
         max-width: 1920px;
         margin: 0 auto;
