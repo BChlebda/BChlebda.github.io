@@ -37,16 +37,6 @@
     }    
 }
 
-@media (min-height: 1800px) and (max-width: 1080px) {
-    #downBox {
-        top: 840px;
-    }
-    
-    .nav-cont {
-        font-size: 24px;
-    }
-}
-
 @media (min-width: 900px) and (max-width: 1023px) and (orientation: portait) {  
     .nav-title {
         display: none;
@@ -104,11 +94,7 @@
         color: #756aee;
 
     }
-    
-    
-    
 /*    ------------------   other -----------------------*/
-    
     .headTitles {
         width: 60%;
         top: 40vh;
@@ -188,10 +174,9 @@
     
 }
 
- 
-@media (max-height: 770px) and (min-width: 1360px) {
+@media (max-height: 768px) and (min-width: 1360px) {
     #downBox {
-        top: 520px;
+        top: 580px;
     }
     .headTitles {
         top: 320px;
@@ -243,4 +228,12 @@
     
 }
 
-
+@media (min-height: 1800px) and (max-width: 1080px) {
+    #downBox {
+        top: 840px;
+    }
+    
+    .nav-cont {
+        font-size: 24px;
+    }
+}
