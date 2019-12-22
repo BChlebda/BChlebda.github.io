@@ -160,7 +160,7 @@ h2 {
 .lt_slide{
     float: left;
     width: 800px;
-    height: 600px;
+    height: 100%;
     margin: 0 10px;
 }
 

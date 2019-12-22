@@ -64,13 +64,17 @@ $(document).ready(function(){
     
     $('.lt_next').click(function(){
         stopSlider();
+            if(currentSlide == $Slide.length ){
+                stop();
+            } else {        
         $Slides.animate({'margin-left': '-='+width}, animationSpeed, function(){
             currentSlide++;
             if(currentSlide == $Slide.length){
                 $Slides.css('margin-left', 0);
                 currentSlide = 1;
             }
-        });        
+        });
+        }
     });
     
     
