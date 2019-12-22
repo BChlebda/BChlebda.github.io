@@ -1,8 +1,10 @@
 #projects {
     padding: 50px 0;
     width: 100%;
+    height: 100vh;
     color: #000000;
     background-color: aliceblue;
+    position: relative;
 }
 
 .projects-box{
@@ -82,4 +84,106 @@ h2 {
 
 .soon {
     background-image: url(../img/onlinesoon.gif);
+}
+
+.rhino {
+    background-image: url(../img/rhino1.jpg);
+}
+
+/* ----------------------------------------  lightbox  ---------------------------------------------------------------- */
+
+.lt_backdrop{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .0;
+    filter:alpha(opacity=0);
+    z-index: 50;
+    display: none;
+}
+
+.lt_box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 950px;
+    height: 700px;
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    z-index: 51;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #555;
+    display: none;
+}
+
+.lt_close {
+    float: right;
+    margin-right: 6px;
+    cursor: pointer;
+    color: #756aee;
+}
+
+.lt_container{
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    bottom: 0;
+}
+
+.lt_slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#lt_Slider{
+    width: 820px;
+    height: 600px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.lt_slides {
+    display: block;
+    width: 4100px;
+    height: 600px;
+    margin: 0;
+    padding: 0;
+}
+
+.lt_slide{
+    float: left;
+    width: 800px;
+    height: 600px;
+    margin: 0 10px;
+}
+
+.lt_ctrl_bt{
+    font-family: Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.lt_prev{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    cursor: pointer;
+    z-index: 2;
+    color: #756aee;
+}
+
+.lt_next{
+    top: 50%;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    z-index: 2;
+    color: #756aee;
 }

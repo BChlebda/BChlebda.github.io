@@ -51,6 +51,8 @@ a:focus{
 
 .container {
     flex-direction: column;
+    align-items: center;
+    justify-content: center;    
 }
 
 .clear {
@@ -90,6 +92,9 @@ a:focus{
     transform: scale(1.3);
 }
 
+ul li{
+    list-style: none;
+}
 
 /* -------------------------------------------------------  nav menu  -------------------------------------------------------------------- */
 
@@ -107,7 +112,7 @@ a:focus{
     align-items: center;
     position: fixed;
     z-index: 2;
-    transition: .5s
+    transition: .5s;
 }
 
 .black {
@@ -343,6 +348,7 @@ header {
 #aboutMe .article {
     text-align: justify;
     margin: 0 20px;
+    width: 550px;
 }
 
 
@@ -353,6 +359,10 @@ header {
 
 #aboutMe figure {
     padding: 0 15px;
+}
+
+.photo {
+    border-radius: 50%;
 }
 
 /* ----------------------------------------  contact  ---------------------------------------------------------------- */
@@ -379,3 +389,4 @@ header {
 .contactMe-cont a{
     margin: 0 10px;
 }
+
