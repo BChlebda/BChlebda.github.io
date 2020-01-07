@@ -51,8 +51,6 @@ a:focus{
 
 .container {
     flex-direction: column;
-    align-items: center;
-    justify-content: center;    
 }
 
 .clear {
@@ -92,9 +90,6 @@ a:focus{
     transform: scale(1.3);
 }
 
-ul li{
-    list-style: none;
-}
 
 /* -------------------------------------------------------  nav menu  -------------------------------------------------------------------- */
 
@@ -112,7 +107,7 @@ ul li{
     align-items: center;
     position: fixed;
     z-index: 2;
-    transition: .5s;
+    transition: .5s
 }
 
 .black {
@@ -343,17 +338,23 @@ header {
     display: flex;
     flex-direction: row;
     margin: 0 50px;
+    align-items: center;
+    justify-content: center;
 }
 
-#aboutMe .article {
+#aboutMe article {
+    width: 37%;
+}
+
+#aboutMe .about_article {
     text-align: justify;
     margin: 0 20px;
-    width: 550px;
 }
 
 
 #aboutMe figure img {
     width: 220px;
+    border-radius: 50%;
 }
 
 
@@ -361,9 +362,8 @@ header {
     padding: 0 15px;
 }
 
-.photo {
-    border-radius: 50%;
-}
+
+
 
 /* ----------------------------------------  contact  ---------------------------------------------------------------- */
 
@@ -389,4 +389,3 @@ header {
 .contactMe-cont a{
     margin: 0 10px;
 }
-
