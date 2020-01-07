@@ -1,47 +1,43 @@
-@media screen and (min-width: 1280px) {
-    header, nav, .nav-cont, section, footer {
-        max-width: 1920px;
-        margin: 0 auto;
-        overflow: hidden;
-    }
-}
-
-@media (min-width: 1024px) and (max-width: 1280px) and (orientation: landscape) {
-    .projects-article {
-        
+@media (max-height: 768px) and (max-width: 414px) {
+    #downBox {
+        top: 710px;
     }
     
     #skills {
-        padding: 50px 100px;
-    }
-    
-    .text-article {
-        flex-basis: calc(50% - 45px);
+        padding: 50px 20px;
     }
     
     .projects-content {
-        flex-direction: column;
-        padding-top: 0;
-        padding-bottom: 35px;
+        margin: 0 10px;
     }
     
     .projects-article {
-        margin: 20px auto;
-        flex-flow: column;
+        width: 340px;
+        height: 240px;
     }
-    
-    .cv-content-left{
-        margin-left: 35px;
-    }
-    
-    .cv-content-right {
-        margin-right: 35px;
-    }
-    
 }
 
 
-@media screen and (max-width: 1023px) {  
+@media (max-height: 667px) and (max-width: 375px) {
+    #downBox {
+        top: 600px;
+    }
+    
+    #skills {
+        padding: 50px 20px;
+    }
+
+    .projects-content {
+        margin: 0 10px;
+    }
+    
+    .projects-article {
+        width: 340px;
+        height: 240px;
+    }    
+}
+
+@media (min-width: 900px) and (max-width: 1023px) and (orientation: portait) {  
     .nav-title {
         display: none;
     }
@@ -98,11 +94,7 @@
         color: #756aee;
 
     }
-    
-    
-    
 /*    ------------------   other -----------------------*/
-    
     .headTitles {
         width: 60%;
         top: 40vh;
@@ -180,11 +172,70 @@
         height: 100vh;
     }
     
-
+    #downBox {
+        bottom: 6%;
+    }
     
 }
 
-@media (max-height: 1920px) and (max-width: 1080px) {
+@media (max-height: 768px) and (min-width: 1360px) {
+    #downBox {
+        top: 570px;
+    }
+    .headTitles {
+        top: 320px;
+    }
+}
+
+@media screen and (min-width: 1370px) {
+    #downBox {
+        bottom: 6%;
+    }
+    header, nav, .nav-cont, section, footer {
+        max-width: 1920px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+}
+
+@media (max-height: 600px) and (max-width: 1280px) {
+        #downBox {
+        top: 470px;
+    }
+    .headTitles {
+        top: 250px;
+    }
+    
+    #skills {
+        padding: 50px 100px;
+    }
+    
+    .text-article {
+        flex-basis: calc(50% - 45px);
+    }
+    
+    .projects-content {
+        flex-direction: column;
+        padding-top: 0;
+        padding-bottom: 35px;
+    }
+    
+    .projects-article {
+        margin: 20px auto;
+        flex-flow: column;
+    }
+    
+    .cv-content-left{
+        margin-left: 35px;
+    }
+    
+    .cv-content-right {
+        margin-right: 35px;
+    }
+    
+}
+
+@media (min-height: 1800px) and (max-width: 1080px) {
     #downBox {
         top: 840px;
     }
@@ -192,43 +243,4 @@
     .nav-cont {
         font-size: 24px;
     }
-}
-    
-@media (max-height: 768px) and (max-width: 414px) {
-    #downBox {
-        top: 710px;
-    }
-    
-    #skills {
-        padding: 50px 20px;
-    }
-    
-    .projects-content {
-        margin: 0 10px;
-    }
-    
-    .projects-article {
-        width: 340px;
-        height: 240px;
-    }
-}
-
-
-@media (max-height: 667px) and (max-width: 375px) {
-    #downBox {
-        top: 600px;
-    }
-    
-    #skills {
-        padding: 50px 20px;
-    }
-
-    .projects-content {
-        margin: 0 10px;
-    }
-    
-    .projects-article {
-        width: 340px;
-        height: 240px;
-    }    
 }
