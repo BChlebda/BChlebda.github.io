@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/skills.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/cv.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <!--<link rel="stylesheet" href="css/respo.css">-->
+    <link rel="stylesheet" href="css/lightbox.css">
 </head>
 
 <body>
@@ -147,7 +148,7 @@
                 </svg>
                 <div class="text-article-content">
                     <h3 class="text-article-title">SQL</h3>
-                    <p class="text-article-desc">Basic knowledge.</p>
+                    <p class="text-article-desc">Good knowledge.</p>
                 </div>
             </article>
             <article class="text-article text-article-icon text-article-icon-wordpress">
@@ -171,7 +172,7 @@
             <article class="text-article text-article-icon text-article-icon-git">
                 <div class="text-article-content">
                     <h3 class="text-article-title">Git</h3>
-                    <p class="text-article-desc">Very good knowledge. I can not imagine working without a repository. I also have my own instance configured on the NAS.</p>
+                    <p class="text-article-desc">Good knowledge. I can not imagine working without a repository. I also have my own instance configured on the NAS.</p>
                 </div>
             </article>
             <article class="text-article">
@@ -236,7 +237,7 @@
                    </a>
                 </article>
                 <article class="projects-article rhino">
-                   <a href="https://github.com/BChlebda/rhino.git" target="_blank">
+                   <a href="#projects" class="lt_switch">
                     <div class="projects-article-cont">
                     <h3>#Project Rhino</h3>
                     <p>Used technology: <br> HTML, CSS, JavaScript</p>
@@ -248,7 +249,21 @@
                     <i class="far fa-circle"></i>
                     </div>
                    </a>
-                </article>                
+                </article>
+                    <div class="light">
+                               <div class="lt_backdrop"></div>
+                            <div class="lt_box"><div class="lt_close"><i class="fas fa-times-circle"></i></div>
+                                <div class="lt_prev"><i class="fas fa-2x fa-arrow-circle-left"></i></div>
+                                    <div class="lt_container">
+                                    <div id="lt_Slider">
+                                        <ul class="lt_slides">
+                                            <li class="lt_slide"><img src="img/rhino1.jpg" alt=""></li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                            <div class="lt_next"><i class="fas fa-2x fa-arrow-circle-right"></i></div>
+                        </div>                                               
+                    </div>                
                 <article class="projects-article soon">
                    <a href="https://github.com/BChlebda/inclusion.git" target="_blank">
                     <div class="projects-article-cont">
@@ -429,6 +444,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="script/script.js"></script>
+    <script src="script/lightbox.js"></script>
     
 </body>
 

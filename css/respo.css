@@ -1,0 +1,59 @@
+@media (max-height: 740px) and (max-width: 360px){
+    .nav-title {
+        display: none;
+    }
+    
+    .nav-menu-button {
+        animation: none;
+        transform: translateX(0px);
+        margin-right: 10px;
+    }
+    
+    .nav-menu {
+        margin-right: 0px;        
+    }
+    
+    .nav-cont {
+        right: 0;
+        width: 150px;
+        height: 250px;
+        background: none;
+        text-align: right;    
+    }
+    
+    .black {
+        box-shadow: none;
+    }
+    
+    #menu .toggle {
+        display: inline-block;
+        padding: 0;
+        margin-right: 20px;
+        color: #756aee;
+        line-height: 20px;
+        text-align: right;
+        z-index: 3;
+        position: absolute;
+        right: 0px;
+        top: 20px;
+    }
+    
+    #menu ul {
+        display: none;
+    }
+    
+    #menu #drop:checked + ul {
+        display: block;
+        top: 40px;
+        right: 0px;
+        position: absolute;
+        z-index: 3;
+        background-color: rgba(255,255,255,.85);
+    }
+    
+    .nav-menu-button a {
+        color: #756aee;
+
+    }
+    
+}
