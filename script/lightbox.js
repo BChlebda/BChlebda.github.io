@@ -10,7 +10,6 @@ $(document).ready(function(){
     var $Slides = $Slider.find('.lt_slides');
     var $Slide = $Slides.find('.lt_slide');
     var real = $Slide.length;
-    alert(real);
     
     function stopScrolling(){   
             $('.light').on('wheel', function(event2){
