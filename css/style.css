@@ -291,12 +291,12 @@ header {
 
 #downBox {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    /*justify-content: center;*/
     position: absolute;
-    width: 100%;
+    /*width: 100%;*/
+    left: 48vw;
     height: 70px;
-    top: 840px;
+    bottom: 40px;
     z-index: 1;
     max-width: 1920px;
 }

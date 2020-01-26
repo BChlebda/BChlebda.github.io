@@ -20,6 +20,10 @@ $('.cv-span').attr('data-aos-duration', '40');
 
 AOS.init();
 
+
+var posD = $('#Start').height();
+$('#downBox').css('top', posD - 90);
+
 $(document).ready(function(){
   $('a').on('click', function(event) {
     if (this.hash !== "") {

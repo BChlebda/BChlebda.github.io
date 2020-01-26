@@ -1,4 +1,100 @@
-@media (max-height: 740px) and (max-width: 360px){
+@media only screen and (min-height: 360px) and (max-height: 414px) and (orientation: landscape) {
+.nav-title {
+        display: none;
+    }
+    
+    .nav-menu-button {
+        animation: none;
+        transform: translateX(0px);
+        margin-right: 10px;
+    }
+    
+    .nav-menu {
+        margin-right: 0px;        
+    }
+    
+    .nav-cont {
+        right: 0;
+        width: 100%;
+        height: 250px;
+        background: none;
+        text-align: right;    
+    }
+    
+    .black {
+        box-shadow: none;
+    }
+    
+    #menu .toggle {
+        display: inline-block;
+        padding: 0;
+        color: #756aee;
+        line-height: 20px;
+        text-align: right;
+        z-index: 3;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 100%;
+        background-color: rgba(255,255,255,.85);
+    }
+    
+    #menu .toggle i {
+        margin-right: 20px;
+    }
+    
+    #menu ul {
+        display: none;
+    }
+    
+    #menu #drop:checked + ul {
+        display: block;
+        top: 20px;
+        right: 0px;
+        position: absolute;
+        z-index: 3;
+        background-color: rgba(255,255,255,.85);
+        width: 100%;
+    }
+    
+    .nav-menu-button a {
+        color: #756aee;
+
+    }    
+    
+    .lt_box{
+        width: 1000px;
+        height: 600px;
+    }
+    
+    .headTitles {
+        top: 40%;
+        transform: translateY(-50%);
+        width: 50%;
+    }
+    
+    #aboutMe .container {
+        margin: 0 10px;
+    }
+    
+    #aboutMe article {
+    width: 50%;
+    }
+    
+    #skills {
+        padding: 50px 60px;
+    }
+    
+    .text-article {
+        flex-basis: calc(50% - 20px);
+    }
+    .cv-container {
+        padding: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 590px) {
     .nav-title {
         display: none;
     }
@@ -15,7 +111,7 @@
     
     .nav-cont {
         right: 0;
-        width: 150px;
+        width: 100%;
         height: 250px;
         background: none;
         text-align: right;    
@@ -28,14 +124,19 @@
     #menu .toggle {
         display: inline-block;
         padding: 0;
-        margin-right: 20px;
         color: #756aee;
         line-height: 20px;
         text-align: right;
         z-index: 3;
         position: absolute;
         right: 0px;
-        top: 20px;
+        top: 0px;
+        width: 100%;
+        background-color: rgba(255,255,255,.85);
+    }
+    
+    #menu .toggle i {
+        margin-right: 20px;
     }
     
     #menu ul {
@@ -44,11 +145,12 @@
     
     #menu #drop:checked + ul {
         display: block;
-        top: 40px;
+        top: 20px;
         right: 0px;
         position: absolute;
         z-index: 3;
         background-color: rgba(255,255,255,.85);
+        width: 100%;
     }
     
     .nav-menu-button a {
@@ -56,4 +158,320 @@
 
     }
     
+    /*header*/
+    
+    .headTitles {
+        transform: translateY(-50%);
+        width: 62%
+    }
+    
+    #downBox {
+        left: 45vw;
+        transform: translateX(-50%);
+        align-content: center;
+        text-align: center;
+    }
+    
+    /*about*/
+    
+    #aboutMe {
+        padding: 50px 0px;
+    }
+    
+    #aboutMe .container {
+        flex-direction: column;
+        margin: 0 5px;
+    }
+    
+    #aboutMe article {
+    width: 100%;
+    }
+    
+    /*skills*/
+    
+    #skills {
+        padding: 50px 15px;
+    }
+    
+    .text-article {
+        flex-basis: 100%;
+    }
+    
+    /*projects*/
+    
+    .projects-content {
+        margin: 0;
+    }
+    
+    /*experience*/
+    
+    .cv-container {
+        padding: 15px;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    * .cv-content-left {
+        text-align: left;
+        align-items:  flex-start;
+    }
+    
+    .cv-article-left {
+    border-left: 2px solid #fff;
+    padding-left: 55px;
+    margin-left: 17px;
+    border-right: 0px;
+    padding-right: 0;
+    margin-right: 0;        
+    }
+    
+    .cv-h3-left::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #756aee;
+    border: 2px solid #565656;
+    position: absolute;
+    margin-left: -66px;
+    }
+    
+    .cv-h3-left::after {
+        visibility: hidden;
+    }    
+    
+    .contactMe-box {
+        width: 100%;
+    }
 }
+
+@media only screen and (min-width: 591px) and (max-width: 767px) {
+    .nav-title {
+        display: none;
+    }
+    
+    .nav-menu-button {
+        animation: none;
+        transform: translateX(0px);
+        margin-right: 10px;
+    }
+    
+    .nav-menu {
+        margin-right: 0px;        
+    }
+    
+    .nav-cont {
+        right: 0;
+        width: 100%;
+        height: 250px;
+        background: none;
+        text-align: right;    
+    }
+    
+    .black {
+        box-shadow: none;
+    }
+    
+    #menu .toggle {
+        display: inline-block;
+        padding: 0;
+        color: #756aee;
+        line-height: 20px;
+        text-align: right;
+        z-index: 3;
+        position: absolute;
+        right: 0px;
+        top: 0px;
+        width: 100%;
+        background-color: rgba(255,255,255,.85);
+    }
+    
+    #menu .toggle i {
+        margin-right: 20px;
+    }
+    
+    #menu ul {
+        display: none;
+    }
+    
+    #menu #drop:checked + ul {
+        display: block;
+        top: 20px;
+        right: 0px;
+        position: absolute;
+        z-index: 3;
+        background-color: rgba(255,255,255,.85);
+        width: 100%;
+    }
+    
+    .nav-menu-button a {
+        color: #756aee;
+
+    }
+    
+    /*header*/
+    
+    .headTitles {
+        top: 50vh;
+        left: 5vw;
+        transform: translate(-50%, -50%);
+    }
+    
+    #downBox {
+        left: 45vw;
+        transform: translateX(-50%);
+        align-content: center;
+        text-align: center;
+    }
+    
+    /*about*/
+    
+    #aboutMe {
+        padding: 50px 0px;
+    }
+    
+    #aboutMe .container {
+        flex-direction: column;
+        margin: 0 5px;
+    }
+    
+    #aboutMe article {
+    width: 100%;
+    }
+    
+    /*skills*/
+    
+    #skills {
+        padding: 50px 15px;
+    }
+    
+    .text-article {
+        flex-basis: 100%;
+    }
+    
+    /*projects*/
+    
+    .projects-content {
+        margin: 0;
+    }
+    
+    /*experience*/
+    
+    .cv-container {
+        padding: 15px;
+        justify-content: center;        
+    }
+    
+    .cv-content {
+        flex-basis: 80%;
+    }
+    
+    * .cv-content-left {
+        text-align: left;
+        align-items:  flex-start;
+    }
+    
+    .cv-article-left {
+    border-left: 2px solid #fff;
+    padding-left: 55px;
+    margin-left: 17px;
+    border-right: 0px;
+    padding-right: 0;
+    margin-right: 0;        
+    }
+    
+    .cv-h3-left::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #756aee;
+    border: 2px solid #565656;
+    position: absolute;
+    margin-left: -66px;
+    }
+    
+    .cv-h3-left::after {
+        visibility: hidden;
+    }    
+    
+    .contactMe-box {
+        width: 100%;
+    }
+    
+    .lt_box{
+        width: 550px;
+        height: 350px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1000px) {
+    
+    .lt_box{
+        width: 600px;
+        height: 400px;
+    }
+    
+    .headTitles {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .cv-container {
+        padding: 15px;
+    }
+    
+    #skills {
+        padding: 50px 35px;
+    }
+    
+    .text-article{
+        flex-basis: calc(50% - 30px);
+    }
+    
+    #aboutMe {
+        padding: 50px 15px;
+    }
+    
+    #aboutMe .container{
+        margin: 0;
+    }
+    
+    #aboutMe article {
+        width: 50%;
+    }
+    
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1365px) and (orientation: landscape) {
+    
+    .lt_box{
+        width: 800px;
+        height: 600px;
+    }
+    
+    .headTitles {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+    .cv-container {
+        padding: 15px;
+    }
+    
+}
+    
+@media only screen and (min-width: 1366px) and (max-width: 1399px) and (orientation: landscape) {
+    
+    .lt_box{
+        width: 1000px;
+        height: 600px;
+    }
+    
+    .headTitles {
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    
+}
+
