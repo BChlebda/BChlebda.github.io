@@ -6,13 +6,13 @@
     scrollbar-color: var(--thumbG) var(--scrollG);    
 }
 
-*::-webkit-scrollbar {
+* ::-webkit-scrollbar {
     width: 11px;
 }
-*::-webkit-scrollbar-track {
+* ::-webkit-scrollbar-track {
     background: var(--scrollG);
 }
-*::-webkit-scrollbar-thumb {
+* ::-webkit-scrollbar-thumb {
     background-color: var(--thumbG) ;
     border-radius: 6px;
     border: 3px solid var(--scrollG);
@@ -113,7 +113,6 @@ a:focus{
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: normal;
-    color: #ffffff;
     background-color: #ffffff;
     height: 90px;
     display: flex;
@@ -356,7 +355,8 @@ header {
     justify-content: center;
 }
 
-#aboutMe article {
+
+.ConAboutMe {
     width: 37%;
 }
 
