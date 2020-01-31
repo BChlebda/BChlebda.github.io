@@ -79,6 +79,17 @@
     fill: #ffffff;
 }
 
+.skillIcon {
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 1.5em;
+    fill: #ffffff;    
+}
+
+
+
 .text-article-icon-svg-bootstrap {
     border: 2px solid #fff;    
 }
@@ -151,6 +162,3 @@
     content: "\f411";
     font-weight: 900;
 }
-
-
-
