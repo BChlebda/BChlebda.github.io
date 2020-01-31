@@ -10,11 +10,11 @@ $(window).on('scroll', function(){
  }
 })
 
-$('article.text-article').attr('data-aos','flip-down');
-$('article.projects-article').attr('data-aos', 'flip-right');
-$('article.cv-article').attr('data-aos', 'fade-up');
-$('article.cv-article').attr('data-aos-delay', '400');
-$('article.cv-article').attr('data-aos-duration', '300');
+$('div.text-article').attr('data-aos', 'fade-in');
+$('div.projects-article').attr('data-aos', 'flip-right');
+$('div.cv-article').attr('data-aos', 'fade-up');
+$('div.cv-article').attr('data-aos-delay', '400');
+$('div.cv-article').attr('data-aos-duration', '300');
 $('.cv-span').attr('data-aos', 'zoom-in');
 $('.cv-span').attr('data-aos-duration', '40');
 
